@@ -19,7 +19,7 @@ writer1.writerow(('name','Organization->Name','Status','Business criticality','C
 for k in j:
    result=None
    name=None
-   organization="Flextrade"
+   organization="xyzorg"
    status="production"   
    bussiness_criticality="High" 
    processor=None
@@ -29,7 +29,7 @@ for k in j:
    os_family="Linux"
    os_version=None
    os_version_fullname=None
-   organization_fullname="Flextrade"
+   organization_fullname="xyzorg"
    virtual_host=vmh
    print(k) 
    o=str(k)
